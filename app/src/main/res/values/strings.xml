@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Login Project</string>
+
+    <!--App Message-->
+    <string name="error_retry_api">Please retry!</string>
+    <string name="error_default_api">Something wrong happened!</string>
+    <string name="default_error_message">Some Error Occurred!</string>
+    <string name="connection_error">Internet connection lost!</string>
+    <string name="search_hint">Cari…</string>
+
+    <!--Menu-->
+    <string name="menu_home">Home</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="menu_about">About</string>
+
+    <!--Logout notification dialog-->
+    <string name="logout_description">Keluar dari aplikasi?</string>
+    <string name="logout_button_positive">Logout</string>
+    <string name="logout_button_negative">Batal</string>
+
+    <!--Dialog Ask Permission-->
+    <string name="ask_choose_photo">Ambil gambar dari</string>
+    <string name="ask_choose_file">Ambil file dari</string>
+    <string name="ask_permission_title">Izin Dibutuhkan</string>
+    <string name="ask_permission_description">App membutuhkan izin storage untuk mencadangkan dan memulihkan data. App juga membutuhkan akses kamera untuk perbaharuan foto profile kamu. Izinkan akses supaya kamu bisa mengakses fitur-fitur berikut.</string>
+    <string name="ask_permission_button_positive">Izinkan</string>
+
+    <!--Permission Failed-->
+    <string name="permission_denied_title">Gagal Akses</string>
+    <string name="permission_denied_description">Fitur ini tidak dapat diakses karena tidak diberikan izin pada device anda. Silahkan lakukan pengaturan ulang pada device anda.</string>
+    <string name="permission_denied_button">OKE</string>
+
+    <string name="permission_denied_read_write_description">Maaf kak, kami tidak dapat menulis data di handphone kakak karena tidak diizinkan oleh kakak. Tolong diaktifkan terlebih dahulu.</string>
+    <string name="permission_denied_read_write_button">Aktifkan</string>
+
+    <!-- Dialog Expired -->
+    <string name="session_expired_title">Sesi Akun Berakhir</string>
+    <string name="session_expired_description">Kamu telah login di perangkat lain. Silakan login kembali jika kamu ingin melakukan aktivitas kamu di perangkat ini</string>
+    <string name="session_expired_button_positive">Oke</string>
+
+    <!--Automatic Time-->
+    <string name="automatic_time_title">Ubah Pengaturan Anda</string>
+    <string name="automatic_time_description">Untuk dapat memulai tryout silakan ubah pengaturan waktu anda ke mode otomatis</string>
+    <string name="automatic_time_button">OKE</string>
+
+    <!--Network Error-->
+    <string name="error_network_title">Whoops!</string>
+    <string name="error_network_description">Tidak ada koneksi. Pastikan Wifi dan Data anda menyala</string>
+    <string name="error_network_interupted_title">Koneksi Terputus!</string>
+    <string name="error_network_interupted_description">Koneksi terputus. Cek kembali koneksi kamu</string>
+    <string name="error_network_null_description">Respon Kosong. Cek kembali koneksi kamu</string>
+    <string name="error_network_facebook">Error. Silakan lakukan setting akses email pada facebook-mu untuk masuk ke dalam aplikasi ini</string>
+    <string name="error_network_409">Kamu telah login di perangkat lain.</string>
+    <string name="error_network_404_title">Not Found!</string>
+    <string name="error_network_404">Layanan tidak tersedia.\nSilakan coba kembali</string>
+    <string name="error_network_500_title">Internal Server Error!</string>
+    <string name="error_network_500">Sistem sedang ada masalah. Silakan coba beberapa saat lagi</string>
+    <string name="error_exercise_not_found_title">Mohon Maaf...</string>
+    <string name="error_exercise_not_found_description">Saat ini soal belum tersedia pada Bank Soal, silahkan pilih Bab atau Sub Bab yang lain</string>
+    <string name="error_general_title">Ada error nih...</string>
+    <string name="error_general_description">Sedang ada error pada aplikasi ini. Jangan khawatir, kami sedang berusaha memperbaiki masalahnya!</string>
+    <string name="error_forbidden_title">Tidak Berlangganan Premium</string>
+    <string name="error_forbidden_description">Saat ini akun kamu sedang tidak berlangganan premium di App. Silakan hubungi admin untuk berlangganan premium.</string>
+    <string name="error_forbidden_button">Premium App</string>
+    <string name="error_forbidden_info_title">Silakan masuk kembali</string>
+    <string name="error_forbidden_info_description">Akun-mu dikeluarkan secara otomatis karena sesi kamu habis. Silakan lakukan login kembali.</string>
+    <string name="error_forbidden_info_button">OKE</string>
+    <string name="error_corrupt_file_title">File bermasalah..</string>
+    <string name="error_corrupt_file_description">File tidak dapet dibuka. Silahkan download ulang</string>
+    <string name="error_corrupt_file_button">OKE</string>
+    <string name="error_connection_time_out">Failed to connect to server please check you network!</string>
+
+    <string name="error_network_button">Tutup</string>
+    <string name="error_network_interupted_button">Coba Lagi</string>
+    <string name="error_google_title">Terjadi kesalahan saat menyambung ke Google</string>
+    <string name="error_google_description">Terjadi kesalahan pada saat menyambung ke Google. Kode Error: %1$d</string>
+    <string name="error_google_button">OKE</string>
+
+    <!--Profile-->
+    <string name="profile_welcome_name">Hai, %1$s!</string>
+    <string name="profile_form_empty_validation">%1$s tidak boleh kosong</string>
+    <string name="profile_form_min_char_validation">%1$s minimal 11 angka</string>
+    <string name="profile_title_name">Nama</string>
+    <string name="profile_title_phone">Kontak Whatsapp</string>
+
+
+    <string name="cat_headlines">General</string>
+    <string name="cat_business">Business</string>
+    <string name="cat_sports">Sports</string>
+    <string name="cat_health">Health</string>
+    <string name="cat_entertainment">Entertainment</string>
+    <string name="cat_tech">Technology</string>
+    <string name="cat_science">Science</string>
+
+</resources>

@@ -1,0 +1,197 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'androidx.navigation.safeargs.kotlin'
+    id 'kotlin-parcelize'
+    id 'org.jetbrains.kotlin.android'
+    id 'dagger.hilt.android.plugin'
+
+//    id 'com.google.gms.google-services'
+//    id 'com.google.firebase.crashlytics'
+}
+
+//def configProperties = new Properties()
+//configProperties.load(new FileInputStream(file('config.properties')))
+//
+//def config = new ConfigSlurper().parse(configProperties)
+
+android {
+
+    compileSdkVersion androidCompileSdkVersion
+
+    defaultConfig {
+        applicationId "com.example.task"
+        minSdkVersion androidMinSdkVersion
+        targetSdkVersion androidTargetSdkVersion
+        versionCode 1
+        versionName "0.0.1"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+    }
+
+    externalNativeBuild {
+        cmake {
+            path "CMakeLists.txt"
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_11.toString()
+    }
+
+    tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
+        kotlinOptions {
+            jvmTarget = JavaVersion.VERSION_11.toString()
+        }
+    }
+
+    buildFeatures {
+        dataBinding true
+        viewBinding true
+    }
+
+    buildTypes {
+        debug {
+            applicationIdSuffix ".dev"
+            versionNameSuffix "-dev"
+            buildConfigField "int", "SERVER_STAGING", "1"
+            debuggable true
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    ndkVersion '25.0.8775105'
+}
+
+dependencies {
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation kotlinStdLib
+
+    // ANDROID TEST
+    //testImplementation test.jUnit
+    //androidTestImplementation test.coreTest
+    //androidTestImplementation test.jUnitExt
+    //androidTestImplementation test.espresso
+
+    // Logs
+    debugImplementation logs.chucker
+    releaseImplementation logs.chuckerNoOp
+    implementation logs.timber
+
+    // Android-X
+    implementation support.material
+    implementation support.support
+    implementation support.appcompat
+    implementation support.fragment
+    implementation support.constraint
+    implementation support.cardview
+    implementation support.recyclerview
+    implementation support.viewpager2
+    implementation support.swiperefreshlayout
+
+    // Multidex
+    implementation libs.multidex
+
+    // Kotlin-X
+    implementation support.core
+
+    // ANDROID WORK RUN-TIMER
+    implementation libs.workRunTime
+
+    // RETROFIT
+    implementation libs.retrofit
+
+    // GSON
+    implementation libs.gson
+
+    // OK-HTTP
+    implementation libs.okhttp
+
+    // Android Navigation
+    implementation support.navigationFragment
+    implementation support.navigationUi
+
+    // ViewModel and Livedata
+    implementation support.liveData
+    implementation support.lifecycle
+    implementation support.lifecycleVM
+    implementation support.lifecycleVMSavedState
+
+    // Hilt
+    implementation libs.hiltAndroid
+    kapt libs.hiltCompilerAndroid
+
+    // Kotlin Coroutines
+    implementation support.coroutines
+    implementation support.coroutinesCore
+    implementation support.coroutinesPlay
+
+    // Room database
+    implementation support.room
+    kapt support.roomCompiler
+    implementation support.roomCommon
+    implementation support.roomKtx
+
+    // GLIDE LIBRARY
+    implementation libs.glide
+    kapt libs.glideCompiler
+    annotationProcessor libs.glideCompiler
+
+    // ANDROID S_DP and S_SP
+    implementation libs.intuitSdp
+    implementation libs.intuitSsp
+
+    // LOTTIE AND OTHER ANIMATION PLAYER
+    implementation libs.lottie
+    implementation libs.shimmer
+
+    // Flexbox
+    implementation support.flexbox
+
+    // Gif drawable
+    implementation libs.gifDrawable
+
+    // Easy Permission
+    implementation libs.easyPermisson
+
+    // Image Cropper
+    implementation libs.imageCropper
+
+    // Custom Tabs Chrome
+    implementation support.browser
+
+    // PhotoView for image view with zoom-in/zoom-out
+    implementation libs.photoView
+
+    // SpinKit View
+    implementation libs.spinKitView
+
+    // Secure Preference
+    implementation libs.securePref
+
+    // Joda Time
+    implementation libs.jodaTime
+
+    // Firebase
+//    implementation platform(firebase.bom)
+//    implementation firebase.analyticsKtx
+//    implementation firebase.firestoreKtx
+//    implementation firebase.messagingKtx
+//    implementation firebase.storageKtx
+//    implementation firebase.crashlitycsNdk
+//    implementation firebase.firestoreUI
+}
+
+kapt {
+    correctErrorTypes true
+}

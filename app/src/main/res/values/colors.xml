@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="testColor">#000000</color>
+    <color name="textColor">#FFFFFF</color>
+
+    <color name="colorPrimary">#FFF</color>
+    <color name="colorPrimaryDark">#FFF</color>
+    <color name="colorAccent">#0B3E68</color>
+    <color name="blue_transparent">#CC2DC6DF</color>
+
+    <color name="dark_blue">#073554</color>
+    <color name="gray_transparent">#4DFFFFFF</color>
+    <color name="blew">#2690CB</color>
+    <color name="ocean_blue">#3FB2F3</color>
+    <color name="gray_60">#99E4E4E4</color>
+    <color name="border">#F4F4F4</color>
+    <color name="lightest_blue_module">#E9F4F6</color>
+    <color name="lightest_blue_consul">#F4F9F9</color>
+    <color name="lightest_blue_tryout">#EDF6F7</color>
+    <color name="lightest_yellow">#FFF8E2</color>
+    <color name="card_bg">#FBFBFB</color>
+    <color name="jello">#DDB230</color>
+    <color name="gray3">#828282</color>
+    <color name="tosca">#35B8AD</color>
+
+    <color name="textMain">#333333</color>
+    <color name="textHeadingOne">#073554</color>
+    <color name="textHeadingTwo">#1A203D</color>
+    <color name="textHeadingThree">#181818</color>
+    <color name="textHeadingFour">#333333</color>
+    <color name="textCaptionOne">#333333</color>
+    <color name="textCaptionTwo">#464958</color>
+    <color name="textCaptionThree">#5F6377</color>
+    <color name="textCaptionFour">#868EA4</color>
+    <color name="textSub">#60666C</color>
+    <color name="textDescription">#4F4F4F</color>
+
+    <color name="textRed">#EB4747</color>
+    <color name="textPeach">#F9A49B</color>
+    <color name="textOrange">#FF952C</color>
+    <color name="textGreen3">#6FCF97</color>
+    <color name="textGreen2">#27AE60</color>
+    <color name="textGreen">#D1E16F</color>
+    <color name="textPink">#FF4D80</color>
+    <color name="textBlue">#2690CB</color>
+    <color name="textGray">#999</color>
+    <color name="textBlueChat">#0E87CC</color>
+    <color name="textYellow">#FFCF3E</color>
+    <color name="textYellowConsul">#F2C94C</color>
+    <color name="textPurple">#BB6BD9</color>
+    <color name="textHintBlue">#B4CCD7</color>
+    <color name="textMidBlack">#212525</color>
+    <color name="textMidGray">#BCC1CD</color>
+    <color name="textNavActive">#1A6A8E</color>
+    <color name="textNavInactive">#4D1A6A8E</color>
+    <color name="textNumberSelected">#4D0B3E68</color>
+    <color name="buttonPrimary">#67BBDF</color>
+    <color name="buttonSecondary">#2667BBDF</color>
+    <color name="buttonThird">#1567BBDF</color>
+    <color name="buttonDisable">#E0E0E0</color>
+    <color name="faded_blue">#AFB6C9</color>
+    <color name="faded_blue_darker">#868EA4</color>
+    <color name="stickIndicatorActive">#4DD1E16F</color>
+    <color name="stickIndicatorInactive">#E0E0E0</color>
+
+    <color name="redLight">#EB5757</color>
+    <color name="merahBagus">#DF677F</color>
+    <color name="blueple">#50559F</color>
+    <color name="hover_blue">#F2F8FA</color>
+    <color name="darkGrey">#666666</color>
+    <color name="lighterTeal">#2DC6DF</color>
+    <color name="teal">#26C6DA</color>
+    <color name="blue_mid">#2DC9E2</color>
+    <color name="bg_color">#F3F5F5</color>
+    <color name="white">#ffffff</color>
+    <color name="white_80">#eaeaea</color>
+    <color name="white_five">#e7e4e4</color>
+    <color name="black">#000000</color>
+    <color name="black_effective">#2a2a2a</color>
+    <color name="black_24">#1e000000</color>
+    <color name="black_transparent">#cc2c2c2c</color>
+    <color name="teal_transparent">#CC1A6A8E</color>
+    <color name="greyish_brown">#404040</color>
+    <color name="black_dialog_consul">#0a0a0a</color>
+    <color name="touch_blue">#E8F5FA</color>
+
+    <color name="sky">#81d4fa</color>
+    <color name="sky_two">#81d5fb</color>
+    <color name="sky_blue">#6aa9f7</color>
+    <color name="pale_aqua">#aeffe3</color>
+    <color name="wheat">#fbd17e</color>
+    <color name="dusky_blue">#4d649f</color>
+    <color name="baby_purple">#d69ffa</color>
+    <color name="light_greenish_blue">#69f0ae</color>
+    <color name="greeny_blue">#55b58a</color>
+    <color name="red">#ea0101</color>
+    <color name="light_red">#ff4952</color>
+    <color name="lighter_red">#FF647C</color>
+
+    <color name="blue_sky">#64b5f6</color>
+    <color name="blue_pale">#4e8cbf</color>
+    <color name="metallic_blue">#4a6580</color>
+    <color name="flat_blue">#355eab</color>
+
+    <color name="brownish_grey">#606060</color>
+    <color name="dark_grey">#a3a3a3</color>
+    <color name="warm_grey">#909090</color>
+    <color name="grey_hover">#f7f7f7</color>
+    <color name="orange">#FFB74D</color>
+    <color name="peach">#FD986E</color>
+    <color name="gold">#F5B941</color>
+    <color name="egg_shell">#fff7c5</color>
+    <color name="marigold">#ffc200</color>
+    <color name="marigold_dark">#ccc200</color>
+    <color name="butterscotch_two">#fab941</color>
+    <color name="mango_two">#ff902a</color>
+    <color name="pumpkin">#e39700</color>
+
+    <color name="nice_blue">#138fb1</color>
+    <color name="greyish">#b2b2b2</color>
+    <color name="greyline">#E5E5E6</color>
+    <color name="lavender">#c48be9</color>
+
+    <color name="divider">#333333</color>
+    <color name="windowBackground">#1C1C1C</color>
+    <color name="overlay">#AA1C1C1C</color>
+    <color name="pinkish_grey">#c5c5c5</color>
+    <color name="pinkish_grey_two">#bdbdbd</color>
+    <color name="greycopy">#f4f4f4</color>
+
+    <color name="cerulean">#0699d4</color>
+    <color name="cerulean_two">#0097d3</color>
+    <color name="medium_green">#3cb54a</color>
+    <color name="medium_green_two">#40c24f</color>
+    <color name="dark_medium_green">#32a83f</color>
+    <color name="kiwi_green">#91e836</color>
+    <color name="lightish_green">#5bec6c</color>
+    <color name="rogue">#c31033</color>
+    <color name="coral">#ff4141</color>
+
+    <color name="vivid_cyan">#06C19C</color>
+    <color name="bright_purple">#8740B5</color>
+    <color name="pacific_blue">#0097D3</color>
+    <color name="pastel_red">#DF6767</color>
+    <color name="burgundy">#DF677F</color>
+    <color name="green">#ace75b</color>
+    <color name="gray_done">#b8b8b8</color>
+    <color name="gray_stroke">#EBEBEB</color>
+
+    <!--    -->
+    <color name="text_ambis_grade">#464958</color>
+    <color name="bluish_ambis_progress">#F6F8FC</color>
+    <color name="gray_ambis_task_line">#EEEFF2</color>
+    <color name="text_ambis_progress">#43C6AC</color>
+    <color name="bg_ambis_grade_bottom">#F9F9FB</color>
+    <color name="bg_ambis_list">#E9E9E9</color>
+</resources>

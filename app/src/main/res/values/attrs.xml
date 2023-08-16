@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="EditTextDrawable">
+        <attr name="et_drawableLeftCompat" format="reference" />
+        <attr name="et_drawableRightCompat" format="reference" />
+        <attr name="et_drawableTopCompat" format="reference" />
+        <attr name="et_drawableBottomCompat" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="TextViewDrawable">
+        <attr name="tv_drawableLeftCompat" format="reference" />
+        <attr name="tv_drawableRightCompat" format="reference" />
+        <attr name="tv_drawableTopCompat" format="reference" />
+        <attr name="tv_drawableBottomCompat" format="reference" />
+        <attr name="tv_drawableBackground" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ButtonDrawable">
+        <attr name="btn_drawableLeftCompat" format="reference" />
+        <attr name="btn_drawableRightCompat" format="reference" />
+        <attr name="btn_drawableTopCompat" format="reference" />
+        <attr name="btn_drawableBottomCompat" format="reference" />
+        <attr name="btn_drawableBackground" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="DividerView">
+        <attr name="color" format="color" />
+        <attr name="dashLength" format="dimension" />
+        <attr name="dashGap" format="dimension" />
+        <attr name="dashThickness" format="dimension" />
+        <attr name="orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="MathView">
+        <attr name="text" format="string"/>
+        <attr name="engine" format="enum">
+            <enum name="KaTeX" value="0"/>
+            <enum name="MathJax" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>
